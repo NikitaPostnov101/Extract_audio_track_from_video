@@ -19,7 +19,6 @@ def extract_audio():
 
     message_label.config(text="Аудиодорожка успешно извлечена!", fg="green")
 
-# Создаем графический интерфейс
 root = Tk()
 root.title("Извлечение аудиодорожки из видео")
 root.geometry("400x200")
